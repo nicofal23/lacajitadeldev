@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La caja del Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1>La caja del Dev</h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="cubo" id="cubo" style="height: 700px;">
+                <canvas id="cuboCanvas"></canvas>
+            </div>
+            <div class="contenedorBoton">
+                <button id="btnZoom" class="raise">Ingresar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Creado por Nicolás Falciglio</p>
+            <div>
+                <a href="http://www.nicolasdev.com.ar" target="_blank"><img src="./assets/img/iconweb.png" alt="" class="icono"></a>
+                <a href="" target="_blank"> <img src="./assets/img/iconowsp.png" alt="" class="icono"></a>
+                <a href="" target="_blank"><img src="./assets/img/weblinkedin.png" alt="" class="icono"></a>
+            </div>
+        </div>
+    </footer> 
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.163.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/"
+          }
+        }
+      </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
+
