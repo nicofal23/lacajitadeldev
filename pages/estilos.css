@@ -8,9 +8,9 @@ body {
     color: white !important;
     background: rgb(0,36,34) !important;
     background: linear-gradient(0deg, rgba(0,36,34,1) 0%, rgba(34,0,158,1) 41%, rgba(0,255,141,1) 100%) !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100% !important;
     }
     .contenedor {
         display: flex;
@@ -184,5 +184,5 @@ body {
       }
       .icono{
         margin: 10px;
-        width: 3.125rem;
+        width: 2.125rem;
       }
